@@ -353,6 +353,18 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
+        "aarch64-unknown-nto-qnx710-iosock",
+        TargetInfo {
+            full_arch: "aarch64",
+            arch: "aarch64",
+            vendor: "unknown",
+            os: "nto",
+            env: "nto71-iosock",
+            abi: "",
+            unversioned_llvm_target: "aarch64-unknown-unknown",
+        },
+    ),
+    (
         "aarch64-unknown-openbsd",
         TargetInfo {
             full_arch: "aarch64",
