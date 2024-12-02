@@ -359,7 +359,7 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
             arch: "aarch64",
             vendor: "unknown",
             os: "nto",
-            env: "nto71-iosock",
+            env: "nto71_iosock",
             abi: "",
             unversioned_llvm_target: "aarch64-unknown-unknown",
         },

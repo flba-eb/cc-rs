@@ -48,7 +48,7 @@ pub(crate) fn guess_llvm_target_triple(
         os => os,
     };
     let env = match env {
-        "newlib" | "nto70" | "nto71"| "nto71-iosock" | "ohos" | "p1" | "p2" | "relibc" | "sgx" | "uclibc" => "",
+        "newlib" | "nto70" | "nto71"| "nto71_iosock" | "ohos" | "p1" | "p2" | "relibc" | "sgx" | "uclibc" => "",
         env => env,
     };
     let abi = match abi {
