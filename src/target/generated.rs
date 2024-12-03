@@ -353,7 +353,7 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
-        "aarch64-unknown-nto-qnx710-iosock",
+        "aarch64-unknown-nto-qnx710_iosock",
         TargetInfo {
             full_arch: "aarch64",
             arch: "aarch64",
